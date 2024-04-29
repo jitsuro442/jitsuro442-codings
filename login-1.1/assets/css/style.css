@@ -15,14 +15,15 @@
 .containr {
     width: 100vw;
     height: 100vh;
-    background-color: lab(69 -57.47 15.16 / 0.39);
+    background-color: lab(86 -12 -21.44);
     position: relative;
     display: flex;
     /* padding: 30px 30px; */
     align-items: center;
     justify-content: center;
-
 }
+
+
 
 
 
@@ -149,7 +150,7 @@ font-family: fangsong;
      font-size: 22px;
     width: 340px;
     height: 50px;
-    border: 1px solid aquamarine;
+    border: 1px solid #aadfff;
     background-color: white;
     border-radius: 10px;
     display: flex;
@@ -209,7 +210,7 @@ font-family: fangsong;
     font-size: 20px;
     width: 341px;
     height: 45px;
-    border: 1px solid #9d9d9dc7;
+    border: 1px solid#ffca5ade;
     border-radius: 5px;
 }
 
@@ -229,10 +230,8 @@ font-family: fangsong;
     position: relative;
     top: -24px;
     font-size: 19px;
-    color: rgb(85, 161, 136);
-}
-
-
+    color:rgb(237 90 36);
+ }
 
 #foot{
     position: relative;
