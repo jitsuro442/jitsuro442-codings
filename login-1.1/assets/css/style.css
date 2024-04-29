@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+
+
+
+
+.containr {
+    width: 100vw;
+    height: 100vh;
+    background-color: lab(69 -57.47 15.16 / 0.39);
+    position: relative;
+    display: flex;
+    /* padding: 30px 30px; */
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.main-sec {
+    width: 90%;
+    height: 85%;
+    background-color: white;
+    border-radius: 10px;
+    /* padding: 15px 20px; */
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+
+.mid-box {
+    width: 54%;
+    height: 90%;
+    /* background-color: #9ce7d170; */
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+
+
+#img-box{
+    background-image: url(/assets/images/Data_security_05.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center
+}
+
+
+
+
+
+.upper-text{
+    width: 90%;
+    height: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: center;
+    font-family: math;
+    align-content: space-between;
+}
+
+
+
+#layer-2{
+
+    width: 90%;
+    height: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: monospace;
+    font-size: large;
+}
+
+
+
+
+#login-box {
+    width: 39%;
+    height: 99%;
+    background-color: white;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.log-in-1{
+    width: 100%;
+    height: 25%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+#header-se{
+    width: 100%;
+    height: 20%;
+
+}
+
+ button{
+    font-size: 22px;
+    width: 340px;
+    height: 50px;
+    border: 1px solid aquamarine;
+    background-color: azure;
+    border-radius: 10px;
+ }
+
+ button a{
+    text-decoration: none;
+    color: black;
+ }
+
+
+
+
+ #g-logo {
+    color: #0070ff;
+    font-size: 28px;
+ }
+ #input_sec input {
+    padding: 5px;
+    margin: 3px;
+    font-size: 15px;
+    width: 341px;
+    height: 45px;
+    border: 1px solid #9d9d9dc7;
+    border-radius: 5px;
+}
+
+
+
+#input_sec h4 {
+    font-size: 25px;
+    position: relative;
+    left: -119px;
+}
+
+
+
+ span a{
+    text-decoration: none;
+    position: relative;
+    top: -24px;
+    font-size: 19px;
+    color: rgb(85, 161, 136);
+}
+
+
+
+#foot{
+    position: relative;
+}
