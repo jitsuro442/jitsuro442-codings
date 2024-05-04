@@ -98,14 +98,13 @@ z-index: -1;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 
 
 }
 
 #upper-field input {
-
     width: 300px;
     height: 50px;
     padding-left: 40px;
@@ -119,19 +118,25 @@ z-index: -1;
 
 
 #upper-field h2 {
-    font-size: xxx-large;
+    font-size: 63px;
+    color:#0b253e;
+    font-weight: 900;
+    font-family: monospace;
+    text-decoration-line: underline;
 }
-
 
 #upper-field p {
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    color: #284e73;
+    font-family: monospace;
+    text-decoration-line: underline;
 }
 
 #spn-1 {
-    position: relative;
+   position: relative;
     left: -127px;
-    top: 45px;
+    top: 35px;
 
 }
 
@@ -140,10 +145,10 @@ z-index: -1;
 
     position: relative;
     left: -127px;
-    top: 45px;
+    top: 35px;
     color: #a3841f;
-
 }
+
 
 .btn-link {
     width: 170px;
@@ -164,27 +169,8 @@ a {
     background-color: #fdd658de;
 }
 
-#btn-3 {
-    width: 400px;
-    height: 47px;
-    /* background-color: darkgray; */
-}
 
 
-#btn-4 {
-    width: 400px;
-    height: 47px;
-    /* background-color: darkgray; */
-}
-
-#lower-spn {
-
-    font-weight: 600;
-    font-size: 18px;
-    color: #1c324b;
-    text-decoration: underline;
-
-}
 
 #spn-logo-1 {
     color: cadetblue;
@@ -194,11 +180,46 @@ a {
     top: 1px;
 }
 
+#lower-field{
+
+    width: 100%;
+    height: 20%;
+}
 
 
-#spn-logo-2 {
-    color: rgb(8, 65, 131);
-    position: relative;
-    left: -18px;
-    top: 1px;
+
+#btm-lgs {
+    width: 34%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.link-gogos{
+    font-size: xx-large;
+    text-shadow: -4px 3px 5px #000000c2;
+}
+
+.link-gogos:hover{
+    transform: translateY(-15px);
+    transition: .5s;
+    text-shadow: 0px 12px 8px black;
+}
+
+#boot{
+    border-top: 3px solid black;
+    margin-top: 5px;
+
+}
+
+
+#boot2{ 
+font-size: 20px;
+font-weight: 600;
+color: brown;
+text-decoration: underline;
 }
