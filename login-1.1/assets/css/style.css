@@ -146,28 +146,82 @@ font-family: fangsong;
 
 }
 
- button{
-     font-size: 22px;
+
+
+
+
+
+#btn2{
+font-size: 22px;
+width: 340px;
+height: 50px;
+border: 1px solid #aadfff;
+background-color: white;
+border-radius: 10px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+}
+#btn2:hover{
+    transition: 1s;
+    background-color: rgb(245 84 25 / 59%);
+}
+
+
+
+
+
+
+#btn{
+    font-size: 22px;
     width: 340px;
     height: 50px;
     border: 1px solid #aadfff;
     background-color: white;
     border-radius: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
  }
+ #btn:hover{
+    transition: .90s;
+    background-color: #29bfcace;
+    box-shadow: 0px 5px 8px 0px #00000045;
+    transform: translateY(-9px);
+    color: azure;
+ } 
+
+
 
  button a{
     text-decoration: none;
     color: black;
- }
+    width: 100%;
+    height: 80%;
+}
+ 
+#btn button a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 10px;
+}
 
+ 
+
+#btn:hover,a:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.918);
+
+ } 
 
  google-logo{
-
  width: 48px;
  height: 48px;
  position: relative;
@@ -178,6 +232,7 @@ font-family: fangsong;
  align-items: center;
  align-content: center;
  justify-content: center;
+ z-index: 1;
  }
 
 
@@ -194,15 +249,21 @@ font-family: fangsong;
 
 
 .google-text{
-    width: 230px;
-    height: 38px;
+ 
+    width: 277px;
+    height: 40px;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-evenly;
-   
     align-items: center;
+    position: relative;
+    left: 9px;
 }
+
+
+
+
 
  #input_sec input {
     padding: 5px;
@@ -217,10 +278,11 @@ font-family: fangsong;
 
 
 #input_sec h4 {
-    font-size: 24px;
+    font-size: 28px;
     position: relative;
     left: -114px;
     font-family: math;
+    left: 0px;
 }
 
 
@@ -230,8 +292,17 @@ font-family: fangsong;
     position: relative;
     top: -24px;
     font-size: 19px;
-    color:rgb(237 90 36);
+    color:rgb(41, 207, 219);
  }
+
+
+ span a:hover{
+    color: rgb(202, 102, 56);
+ }
+
+
+
+
 
 #foot{
     position: relative;
