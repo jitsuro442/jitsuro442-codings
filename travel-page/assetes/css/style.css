@@ -1,0 +1,815 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 450vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 15%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#cont-head-1 {
+
+    background-image: url(/assetes/image/backpacker-standing-sunrise-viewpoint-ja-bo-village-mae-hong-son-province-thailand.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+#cont-head-1-nav {
+    width: 100%;
+    height: 9%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #414b7a4a;
+}
+
+
+#cont-head-1-content {
+    width: 80%;
+    height: 88%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+
+.nav-sec {
+    width: 33%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border-right: 1px solid black;
+
+}
+
+
+#nav-1 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#nav-1 span {
+    position: relative;
+    margin: 11px;
+}
+
+
+
+
+
+
+
+
+.nav-sec a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 26px;
+    font-family: monospace;
+}
+
+
+.nav-sec a:hover {
+    /* transition: 1.1s; */
+    border-bottom: 5px solid #a93737d4;
+    color: rgb(252, 225, 225);
+    text-decoration: none;
+}
+
+
+#nav-3 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#log-in {
+    border-right: 2px solid black;
+    position: relative;
+    left: -5px;
+    width: 79px;
+}
+
+
+
+
+#btn {
+    width: 300px;
+    height: 100px;
+    background: transparent;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+#btn:hover {}
+
+
+#btn a {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
+
+
+.inside-txt {
+
+    width: 100%;
+    height: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+}
+
+
+#txt-1 span {
+
+    font-size: 90px;
+}
+
+#spn2 {
+    font-size: 100PX;
+    text-decoration: underline;
+    text-underline-offset: 14px;
+}
+
+#txt-1 p {
+    font-size: x-large;
+    position: relative;
+    right: -4px;
+    top: 7px;
+}
+
+
+#txt-2 {
+
+    width: 100%;
+    height: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+
+}
+
+#cont-mid-1 {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.mid-card {
+    width: 25%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 1;
+    top: -40px;
+}
+
+
+
+#card-1 {
+    background-image: url(/assetes/image/crd-1-sky.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card-2 {
+    background-image: url(/assetes/image/crd-2-mountain.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card-3 {
+    background-image: url(/assetes/image/crd-3-beach.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.crd-txt {
+    width: 100%;
+    height: 94%;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 46px;
+    font-weight: 600;
+    bottom: 28px;
+    /* left: 85px; */
+    text-align: center;
+    align-content: flex-end;
+}
+
+.mid-card:hover {
+
+    transition: ease-in-out .4s;
+    transform: scale3d(1.04, 1.06, 1.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#cont-mid-2 {
+    width: 100%;
+    height: 9%;
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #c3bdbd;
+}
+
+#cont-mid-2 a {
+    font-size: 21px;
+    text-decoration: none;
+    color: #9C27B0;
+}
+
+#cont-mid-2 a span {
+    font-size: xx-large;
+    position: relative;
+    top: 2px;
+    left: 10px;
+    color: #6b41d1c2;
+}
+
+
+
+#cont-foot-3 {
+
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-foot-box {
+
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#left-box {}
+
+.img-box {
+    width: 70%;
+    height: 70%;
+    background-image: url(/assetes/image/beach.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 6px 2px #00000047;
+
+
+
+}
+
+
+#right-box {
+    width: 40%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.cont-foot-box {}
+
+
+
+.right-box-sec {
+    width: 100%;
+    height: 22%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+#rt-box-1 span {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+#rt-box-2 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 5px solid #00000047;
+
+}
+
+#rt-box-2 span a {
+    text-decoration: none;
+    font-size: 38px;
+    margin-right: 46px;
+    color: #1f749b;
+    position: relative;
+    top: 13px;
+}
+
+
+#rt-box-2 span a:hover {
+    transition: all ease-in-out .40s;
+    text-decoration: underline 4px solid #6d2525c0;
+    text-underline-offset: 15px;
+}
+
+#rt-box-3 p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+#rt-box-4 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#rt-box-4 button {
+    width: 240px;
+    height: 57px;
+    margin-right: 15px;
+    margin-left: 15px;
+    position: relative;
+    left: -13px;
+
+}
+
+#rt-box-4 button a {
+
+    text-decoration: none;
+    font-size: 28px;
+    width: 40px;
+
+
+}
+
+
+#btn1 {
+    border: transparent;
+    outline: none;
+    background-color: #01b3a7;
+
+}
+
+#btn1:hover {
+
+    background-color: aliceblue;
+    border: 3px solid rgba(0, 0, 0, 0.747);
+}
+
+
+
+#btn1 a {
+    color: aliceblue;
+
+}
+
+#btn1 a:hover {
+    color: rgba(7, 7, 7, 0.863);
+}
+
+#btn2 {
+    border: 3px solid rgba(0, 0, 0, 0.747);
+
+}
+
+#btn2:hover {
+    border: transparent;
+    outline: none;
+    background-color: #01b3a7;
+
+}
+
+
+#btn2 a {
+    color: rgba(7, 7, 7, 0.863);
+}
+
+#btn2 a:hover {
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#foot {
+
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: #1f749b; */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#foot-3 {
+
+
+    width: 100%;
+    height: 8%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #838a8d;
+
+}
+
+
+
+
+
+#foot-box-1 {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#foot-box-1 span {
+    font-size: 65PX;
+    font-weight: 600;
+}
+
+
+#foot-box-2 {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.footer-box-sec-card {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+
+
+.footer-box-sec-card-containers {
+    width: 25%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 2px 8px #7e7e7e0f;
+}
+
+.footer-box-sec-card-containers:hover {
+    transition: ease-in-out .35s;
+    transform: scale3d(1.04, 1.10, 1.9);
+    box-shadow: 0px 0px 11px 3px #2221211f;
+}
+
+
+
+
+.footer-box-sec-card-containers-content {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+.footer-box-sec-card-containers-content a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+    color: #5cc7c7db;
+    font-size: 48px;
+}
+
+
+
+
+.footer-box-sec-card-containers-content-txt {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.footer-box-sec-card-containers-content-txt p {
+    font-size: 18px;
+    color: rgba(24, 23, 23, 0.596);
+}
+
+
+
+
+.footer-box-sec-card-containers-content-txt span a {
+    text-decoration: none;
+    font-size: 32px;
+    color: rgba(24, 23, 23, 0.836);
+}
+
+.footer-box-sec-card-containers-content-txt span a:hover {
+
+    transition: ease-in-out.34s;
+    color: #5cc7c7db;
+    ;
+}
+
+
+
+
+.tour{
+width: 100%;
+height: 20%;
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+align-items: center;
+}
+
+#foot span p{
+
+    font-size: 50px;
+    color: #000000d9;
+
+}
+
+
+
+#foot-2 {
+
+    width: 85%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    /* background-color: #18303b; */
+}
+
+
+
+
+.footer-tour-sec{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.footer-tour-sec-box-img{
+    width: 40%;
+    height: 100%;
+}
+
+
+.footer-tour-sec-box-img img{
+
+    width: 99%;
+    height: 95%;
+}
+
+
+.footer-tour-sec-box-img img:hover{
+    transition: 1s;
+    transform: scale(.95);
+}
+
+.footer-tour-sec-box-txt{
+    width: 49%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content:  flex-start;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+
+.box-txr-sec span a{
+font-size: 33px;
+text-decoration: none;
+color: black;
+position: relative;
+left: 26px;
+}
+
+.box-txr-sec-2 span {
+    text-decoration: none;
+    color: rgb(255 212 0);
+    font-size: 20px;
+    margin-right: 0px;
+    margin-left: 9px; ;
+    margin-top: 12px;
+}
+
+
+.box-txr-sec-4 p{
+    ont-size: 21px;
+    position: relative;
+    left: 70px;
+    color: #00000091;
+}
+
+
+
+.box-txr-sec-2 span a{
+    text-decoration: none;
+    color: rgba(26, 25, 25, 0.856);
+    font-size: 25px;
+    }
+    
+ .box-txr-sec-2 span a:hover{
+        color: #b73636;
+        transition: 1s;
+    }
+
+
+
+    .box-txr-sec-3 button{
+    width: 224px;
+    height: 65px;
+    position: relative;
+    top: 21px;
+    background-color: white;
+    border: 3px solid rgba(22, 22, 22, 0.877);
+    }
+
+    .box-txr-sec-3 button:hover{
+        background-color:#5cc7c7db;
+        outline: none;
+        border: transparent;
+    }
+
+    .box-txr-sec-3 button a{
+        text-decoration: none;
+        font-size: 19px;
+       
+    }
